@@ -14,6 +14,9 @@ One of the most common issues with AI is its confidence in giving an answer, eve
 
 Also, there is no set defined answer to AI's questions, and asking the same questions multiple times, or from multiple machines, may result in wildly different answers. 
 
+## Slides
+<a href="https://docs.google.com/presentation/d/1N2QsfNbs46fk1rTVd-dtypQ9AFH0LtTdyiA0H4Qeous/edit#slide=id.g1e1da9ecd6b_0_15856" target="_blank"> Intro to AI in SEI </a>
+
 ## You Do
 
 ### Let's take a some time to work with some ChatGPT prompts to see what the answer given looks like, how close it is to what we want, and how different the answers are to others asking the same questions.
