@@ -16,7 +16,9 @@ Also, there is no set defined answer to AI's questions, and asking the same ques
 
 ## Slides
 <a href="https://docs.google.com/presentation/d/1N2QsfNbs46fk1rTVd-dtypQ9AFH0LtTdyiA0H4Qeous/edit#slide=id.g1e1da9ecd6b_0_15856" target="_blank"> Intro and Overview of AI in SEI </a>
+<br/>
 <a href="https://docs.google.com/presentation/d/1hypDzgz5O6HkIBotIZymV98PUp5oU7D6FbvjAJCg9Tg/edit#slide=id.g1e42f9bea70_1_0" target="_blank"> Ethics of AI usage </a>
+<br/>
 <a href="https://docs.google.com/presentation/d/15qOoN9Qv9Ohge4w5DKkMs55dfkoIze3jwdJzkOMKjcY/edit#slide=id.g1e43198b982_0_0" target="_blank"> Writing Prompts </a>
 
 
