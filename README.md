@@ -1,4 +1,4 @@
-## SEIR 0911
+## SEBR 0429
 
 # AI /ChatGPT Workshop
 
@@ -10,18 +10,16 @@ ChatGPT is an LLM (Large Language Model) style tool, which means that it respond
 
 In fact, the anticipation of errors is one of the most important parts of working with AI tools. We can use it to help out in our work, but to rely strictly on AI is to invite in disaster for us.
 
-One of the most common issues with AI is its confidence in giving an answer, even when the answer is incorrect. This is an issue that arises when working with complex math equations (PEMDAS and OOO issues), and with multi-file projects where data is sent between different components and directories
+One of the most common issues with AI is its confidence in giving an answer, even when the answer is incorrect. This is an issue that arises when working with complex math equations (PEMDAS and OOO issues), and with multi-file projects where data is sent between different components and directories, especially as we work with different versions of these frameworks
 
 Also, there is no set defined answer to AI's questions, and asking the same questions multiple times, or from multiple machines, may result in wildly different answers. 
 
+Sounds fun, right?
+
+Let's dive in a bit more
+
 ## Slides
-<a href="https://docs.google.com/presentation/d/1N2QsfNbs46fk1rTVd-dtypQ9AFH0LtTdyiA0H4Qeous/edit#slide=id.g1e1da9ecd6b_0_15856" target="_blank"> Intro and Overview of AI in SEI </a>
-<br/>
-<a href="https://docs.google.com/presentation/d/1hypDzgz5O6HkIBotIZymV98PUp5oU7D6FbvjAJCg9Tg/edit#slide=id.g1e42f9bea70_1_0" target="_blank"> Ethics of AI usage </a>
-<br/>
-<a href="https://docs.google.com/presentation/d/15qOoN9Qv9Ohge4w5DKkMs55dfkoIze3jwdJzkOMKjcY/edit#slide=id.g1e43198b982_0_0" target="_blank"> Writing Prompts </a>
-
-
+<a href="https://docs.google.com/presentation/d/1nhKjAMNfoJMTy9RADsOPiwKPbhiZhyJR3_1-VEQFaE4/edit#slide=id.g2c70c09bdca_0_4380"> AI in the world of Tech </a>
 ## You Do
 
 ### Let's take a some time to work with some ChatGPT prompts to see what the answer given looks like, how close it is to what we want, and how different the answers are to others asking the same questions.
@@ -32,6 +30,31 @@ Note - these prompts have been purposefully left a bit nebulous, you'll need to 
 
 2) Express - Create a server.js file with all of our standard express boilerplate. It should run at port 3001, send a message of "Server running" when it runs, and send a string of 'Welcome to our page' when reaching our landing page
 
-3) Django - Create a serializer that works off of two models, an author (parent) and a book (child) related by a PK and FK. Author has data of Name, Birth Date, Nationlaity, and if they are alive or not. Books have Title, Genre, and a Short Description of them
+3) Django - Create a serializer that works off of two models, an author (parent) and a book (child) related by a PK and FK. Author has data of Name, Birth Date, Nationality, and if they are alive or not. Books have Title, Genre, and a Short Description of them
 
-4) React - Use ChatGPT to tell you the differences between the UseContext hook and the Redux library, and the strengths, weaknesses, and usage for each would be. Then, using the information provided to you, teach it to your classmates making sure you un
+4) React - Use ChatGPT to tell you the differences between the UseContext hook and the Redux library, and the strengths, weaknesses, and usage for each would be. Then, using the information provided to you, teach it to your classmates
+
+5) React - have ChatGPT explain what the "useState" hook is doing here:
+
+```jsx
+
+import {useState, useEffect} from 'react'
+import axios from 'axios'
+
+const App = () => {
+    const [pokemon, setPokemon] = useState({})
+
+    useEffect(()=> {
+      const response = axios.get('https://pokeapi.co/api/v2/pokemon/squirtle')
+      setPokemon(response.data)
+      }, [])
+
+    return (
+     <div>
+        <h1> {pokemon.name} </h1>
+        <img src={pokemon.sprites.front_default} alt="sprite"/>
+      </div
+
+ )
+}
+```
