@@ -1,4 +1,4 @@
-## SEBR 0429
+
 
 # AI /ChatGPT Workshop
 
@@ -26,15 +26,27 @@ Let's dive in a bit more
 Note - these prompts have been purposefully left a bit nebulous, you'll need to fill in some of the blanks of how exactly *you* want the answer to look, based off how you are going to ask it.
 
 
-1) CSS - Ask ChatGPT to create a stylesheet that will convert to a grid display with two equal columns when your screen size meets a media query breakpoint for mobile devices, and four columns in the regular desktop view
 
-2) Express - Create a server.js file with all of our standard express boilerplate. It should run at port 3001, send a message of "Server running" when it runs, and send a string of 'Welcome to our page' when reaching our landing page
+If this work shop is being done in the first half of the class (Units 1 or 2) use these 4 prompts:
 
-3) Django - Create a serializer that works off of two models, an author (parent) and a book (child) related by a PK and FK. Author has data of Name, Birth Date, Nationality, and if they are alive or not. Books have Title, Genre, and a Short Description of them
+1) HTML - Have Chat GPT create an HTML file for you that links to files called style.css script.js. In the body there should be a header called "title" that has "Hello world" written in a large font, and a main element called "main"  that contains an ordered list that has 10 fruits listed alphabetically
 
-4) React - Use ChatGPT to tell you the differences between the UseContext hook and the Redux library, and the strengths, weaknesses, and usage for each would be. Then, using the information provided to you, teach it to your classmates
+2) CSS - Ask ChatGPT to create a stylesheet that will convert to a grid display with two equal columns when your screen size meets a media query breakpoint for mobile devices, and four columns in the regular desktop view
 
-5) React - have ChatGPT explain what the "useState" hook is doing here:
+3) JS 1 - Have Chat GPT generate a For Loop that logs every odd number between 20 and 50 to your console. If the number is evenly divisible by 7, it should say "is a lucky number" next to the logged number
+
+4) JS 2 - Have Chat GPT explain the difference between the "QuerySelector" and the "GetElementById" methods for DOM Manipulation. Get the strengths and weaknesses of both, and be preared to share this information with your peers.
+
+
+If this work shop is being done in the second half of the class (Units 3 or 4) use these  instead:
+
+1) Express - Create a server.js file with all of our standard express boilerplate. It should run at port 3001, send a message of "Server running" when it runs, and send a string of 'Welcome to our page' when reaching our landing page
+
+2) Django - Create a serializer that works off of two models, an author (parent) and a book (child) related by a PK and FK. Author has data of Name, Birth Date, Nationality, and if they are alive or not. Books have Title, Genre, and a Short Description of them
+
+3) React - Use ChatGPT to tell you the differences between the UseContext hook and the Redux library, and the strengths, weaknesses, and usage for each would be. Then, using the information provided to you, teach it to your classmates
+
+4) React - have ChatGPT explain what the "useState" hook is doing here:
 
 ```jsx
 
