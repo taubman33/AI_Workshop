@@ -3,7 +3,7 @@
 # AI /ChatGPT Workshop
 
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*aNq2TfOXD-162PMoikqcbQ.png](https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Hal-900.2001-A-Space-Odyssey.webp"/>
+<img src="https://www.rollingstone.com/wp-content/uploads/2018/11/HTRA125_VV195.jpg"/>
 
 ## Introduction
 As we see further advances in open AI technology, we are asking more and more about how it is going to effect our role as tech developers and software engineers. Rather than fearing this, lets take some time to better understand this technology and how we can use it to our advantages
