@@ -11,6 +11,9 @@ As we see further advances in open AI technology, we are asking more and more ab
 ### What is ChatGPT?
 ChatGPT is an LLM (Large Language Model) style tool, which means that it responds purely to commands written in a spoken language - *not* in code or in binary. This is nice because it allows us to write questions in a common semantic way, but it also means that we need to be extremely specific in our commands, as certain parts of language like idioms, metaphors, and slang may not be read correctly and lead to errors.
 
+
+<img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Ft62kfd893cja1.jpg"/>
+
 In fact, the anticipation of errors is one of the most important parts of working with AI tools. We can use it to help out in our work, but to rely strictly on AI is to invite in disaster for us.
 
 One of the most common issues with AI is its confidence in giving an answer, even when the answer is incorrect. This is an issue that arises when working with complex math equations (PEMDAS and OOO issues), and with multi-file projects where data is sent between different components and directories, especially as we work with different versions of these frameworks
