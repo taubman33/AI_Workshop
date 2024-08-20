@@ -33,7 +33,7 @@ Note - these prompts have been purposefully left a bit nebulous, you'll need to 
 
 If this work shop is being done in the first half of the class (Units 1 or 2) use these 4 prompts:
 
-1) HTML - Have Chat GPT create an HTML file for you that links to files called style.css script.js. In the body there should be a header called "title" that has "Hello world" written in a large font, and a main element called "main"  that contains an ordered list that has 10 fruits listed alphabetically
+1) HTML - Have Chat GPT create an HTML file for you that links to files called style.css script.js. In the body there should be a header called "title" that holds a welcome to the user written in a large font, and a main element called "main"  that contains an ordered list that has 10 types of sharks listed alphabetically
 
 2) CSS - Ask ChatGPT to create a stylesheet that will convert to a grid display with two equal columns when your screen size meets a media query breakpoint for mobile devices, and four columns in the regular desktop view
 
